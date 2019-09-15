@@ -539,7 +539,13 @@ input,select{
 		font-size: 5rem;
 	}
 	header{
-		background-attachment: "";
+		background-attachment: scroll;
+	}
+	.fine-dining{
+		background-attachment: scroll;
+	}
+	.guest-review{
+		background-attachment: scroll;
 	}
 }
 .showHide{
