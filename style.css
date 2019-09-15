@@ -451,7 +451,7 @@ input,select{
 }
 /*-----footer-----*/
 .footer{
-	font-size: 1.9rem;
+	font-size: 1.6rem;
 	display:flex;
 	justify-content: center;
 	background-color: #000000;
@@ -506,9 +506,7 @@ input,select{
 	.book{
 		flex-direction: column;
 	}
-	.footer{
-		flex-direction: column;
-	}
+	
 	.icon{
 		display: block;
 		position:absolute;
@@ -537,6 +535,13 @@ input,select{
 		margin-top: 4rem;
 		font-size: 5rem;
 	}
+	.jumbotron-button-section{
+		display: flex;		
+	}
+	.jumbotron-button{
+		flex-basis:40%;
+		font-size:1.5em;
+	}
 	header{
 		background-attachment: initial;
 	}
@@ -555,24 +560,21 @@ input,select{
 	.guest-review-section{
 		width:80%;
 	}
-	/*-------footer------*/
 	label{
 		flex-basis:100%;
 	}
+	/*-------footer------*/
+	.footer{
+		flex-direction: column;
+		align-items: center;
+	}
+	
 	.footer>div {
 		padding:0.5em;
-		width:100%;
+		flex-basis:80%;
+		max-width:80%;
 	}
-	.jumbotron-button-section{
-		display: flex;		
-	}
-	.jumbotron-button{
-		flex-basis:40%;
-		font-size:1.5em;
-	}
-	.footer{
-		position: static;
-	}
+	
 }
 @media screen and (min-width:768px){
 	header{
