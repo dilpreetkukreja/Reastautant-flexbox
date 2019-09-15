@@ -488,7 +488,7 @@ input,select{
 
 	}
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
 	.intro{
 		flex-direction: column;
 		height:auto;
@@ -555,20 +555,22 @@ input,select{
 	.guest-review-section{
 		width:80%;
 	}
+	/*-------footer------*/
 	label{
 		flex-basis:100%;
 	}
 	.footer>div {
 		padding:0.5em;
+		width:100%;
 	}
 	.jumbotron-button-sectio{
 		display: flex;
 	}
-	footer{
+	.footer{
 		position: static;
 	}
 }
-@media screen and (min-width:769px){
+@media screen and (min-width:768px){
 	header{
 		background-attachment: fixed;
 	}
