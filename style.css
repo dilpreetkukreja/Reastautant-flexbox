@@ -540,7 +540,7 @@ input,select{
 		font-size: 5rem;
 	}
 	header{
-		background-attachment: "";
+		background-attachment: initial;
 	}
 	.fine-dining{
 		background-attachment: scroll;
