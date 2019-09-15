@@ -18,9 +18,10 @@
 
 		/* ------------ header --------------*/
 		header{
+			width:100%;
 			background-image: url("images/main2.jpeg");
 			background-repeat: no-repeat;
-			background-attachment: fixed;
+			
 			background-position: center center;
 		
 			-webkit-background-size: cover;
