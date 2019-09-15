@@ -547,6 +547,21 @@ input,select{
 	.guest-review{
 		background-attachment: scroll;
 	}
+	.content,.pasta{
+		padding:0.5em;
+
+	}.pasta{
+		padding-right: 0;
+	}
+	.guest-review-section{
+		width:80%;
+	}
+	label{
+		flex-basis:100%;
+	}
+	.footer>div {
+		padding:0.5em;
+	}
 }
 @media screen and (min-width:769px){
 	header{
