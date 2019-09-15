@@ -21,7 +21,7 @@
 			width:100%;
 			background-image: url("images/main2.jpeg");
 			background-repeat: no-repeat;
-			background-attachment: fixed;
+			
 			background-position: center center;
 		
 			-webkit-background-size: cover;
@@ -547,6 +547,17 @@ input,select{
 	}
 	.guest-review{
 		background-attachment: scroll;
+	}
+}
+@media screen and (min-width:769px){
+	header{
+		background-attachment: fixed;
+	}
+	.fine-dining{
+		background-attachment: fixed;
+	}
+	.guest-review{
+		background-attachment: fixed;
 	}
 }
 .showHide{
