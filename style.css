@@ -87,6 +87,9 @@
 		}
 		
 		.jumbotron{
+			display:flex;
+			flex-direction: column;
+			align-items: center;
 			text-align:center;
 
 		}
@@ -539,24 +542,17 @@ input,select{
 		display: flex;		
 	}
 	.jumbotron-button{
-		flex-basis:40%;
+		flex-basis:50%;
 		font-size:1.5em;
 	}
-	header{
-		background-attachment: initial;
-	}
-	.fine-dining{
-		background-attachment: scroll;
-	}
-	.guest-review{
-		background-attachment: scroll;
-	}
+	
 	.content,.pasta{
 		padding:0.5em;
 
 	}.pasta{
 		padding-right: 0;
 	}
+	/*----guest review---*/
 	.guest-review-section{
 		width:80%;
 	}
