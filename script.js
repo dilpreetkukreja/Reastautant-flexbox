@@ -55,12 +55,29 @@
 		  slides[slideIndex-1].style.display = "block"; 
 		  dots[slideIndex-1].classList.add('active');	  
 		}
+
 		let icon = document.getElementsByClassName("icon")[0];
-		console.log(icon);
+		let hamburger = '<i class="fa fa-bars"></i>';
+		let cross = '<i class="fa fa-times"></i>';
+		let font_awesome_icon = icon.innerHTML;
+		console.log(font_awesome_icon);
+		
+		//console.log(icon);
 		function toggleClass(e){
+			console.log(font_awesome_icon);
 			let items = document.getElementsByClassName("items");
 			for(let elem of items){
 				elem.classList.toggle('showHide');
+				if(font_awesome_icon==hamburger){
+					icon.innerHTML = cross;
+					font_awesome_icon = cross;
+					
+				}
+				else if(font_awesome_icon==cross){
+					icon.innerHTML = hamburger;
+					font_awesome_icon = hamburger;
+	
+				}
 			}
 		}
 		icon.addEventListener("click", toggleClass);

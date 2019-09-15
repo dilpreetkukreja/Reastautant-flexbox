@@ -543,11 +543,11 @@ input,select{
 		flex-direction: column;
 	}
 	nav ul li:not(:last-child){
-		font-size:0.7em;
+		font-size:0.8em;
 		text-align:right;
 	}
 	nav ul li:first-child{
-		margin-top:0.4em;
+		margin-top:0.5em;
 	}
 	nav ul li a{
 		display: block;
@@ -605,7 +605,6 @@ input,select{
 	display:block;
 	opacity:1;
 	visibility: visible;
-
 }
 
 
