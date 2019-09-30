@@ -599,9 +599,6 @@ input,select{
 	.guest-review{
 		background-attachment: fixed;
 	}
-	.jumbotron-content{
-		margin-top: 2em;
-	}
 }
 @media screen and (max-width:576px){
 	.jumbotron-content{
