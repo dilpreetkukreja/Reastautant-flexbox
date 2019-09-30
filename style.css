@@ -223,8 +223,7 @@
 			font-size: 1.9rem;
 			padding:4rem;
 		}
-		.fade-in {
-			opacity: 1;
+		.fade-in {	
 			animation-name: fadeInOpacity;
 			animation-iteration-count: 1;
 			animation-timing-function: ease-in;
@@ -599,6 +598,18 @@ input,select{
 	}
 	.guest-review{
 		background-attachment: fixed;
+	}
+	.jumbotron-content{
+		margin-top: 2em;
+	}
+}
+@media screen and (max-width:576px){
+	.jumbotron-content{
+		margin-top: 0em;
+	}
+	.navigation nav ul{
+		margin-bottom: 0;
+		padding-bottom: 0;
 	}
 }
 .showHide{
